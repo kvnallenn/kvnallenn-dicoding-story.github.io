@@ -1,0 +1,33 @@
+{
+  "name": "Story App Dicoding",
+  "short_name": "StoryApp",
+  "description": "Aplikasi berbagi cerita dengan PWA dan fitur offline.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#343a40",
+  "icons": [
+    {
+      "src": "assets/img/dicoding copy.png",
+      "sizes": "700x700",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshots/screenshot-mobile-1.png",
+      "sizes": "378x670",
+      "type": "image/png",
+      "label": "Tampilan Beranda Cerita",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/screenshots/screenshot-desktop-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Tampilan Tambah Cerita di Desktop",
+      "form_factor": "wide"
+    }
+  ]
+}

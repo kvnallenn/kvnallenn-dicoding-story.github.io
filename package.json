@@ -1,0 +1,24 @@
+{
+  "name": "dicoding---allen",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvnallenn/dicoding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvnallenn/dicoding/issues"
+  },
+  "homepage": "https://github.com/kvnallenn/dicoding#readme",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

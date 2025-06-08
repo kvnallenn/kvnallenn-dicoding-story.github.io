@@ -1,0 +1,200 @@
+/* IMPORT FONT */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: Inter;
+  margin: 0;
+}
+
+/* IMPORT FONT */
+
+/* HEADER NAV */
+
+.logo-dicoding {
+  width: 130px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.login-section {
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 769px) {
+  .login-section {
+    display: none;
+  }
+  .nav-header {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* HEADER NAV */
+
+/* ARTIKEL TEXT */
+
+.article-text {
+  padding: 20px;
+}
+
+/* ARTIKEL TEXT */
+
+/* ADD STORY BUTTON */
+
+.skip-button {
+  font-family: Inter;
+  padding: 10px;
+  border: none;
+  background-color: #2c3d4f;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 769px) {
+  .article-text {
+    text-align: center;
+  }
+}
+
+/* ADD STORY BUTTON */
+
+.list-story {
+  font-family: Inter;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+/* FORM SECTION */
+
+.form-story {
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #2c3d4f;
+  color: white;
+}
+
+.story-container {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+}
+
+.text-form {
+  font-size: 50px;
+}
+
+.submit-button {
+  padding: 7px;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  font-family: Inter;
+}
+
+@media only screen and (max-width: 769px) {
+  .story-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+
+  textarea {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* FORM SECTION */
+textarea {
+  resize: vertical;
+}
+
+/* LOGIN FORM */
+
+.container-form {
+  padding: 20px;
+}
+
+.login-form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-input-form {
+  margin-top: 20px;
+}
+
+.login-button {
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: #2c3d4f;
+  font-family: Inter;
+  margin-top: 10px;
+}
+
+/* LOGIN FORM */
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* spacing between cards */
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.card {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.story-pict {
+  width: 100%;
+}
+
+.form-label {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text-cerita {
+  padding: 20px;
+}
+
+.notif-regis {
+  margin-top: 5px;
+}
+
+.skip-ct {
+  position: absolute !important;
+  height: 120px;
+  width: 1px;
+  overflow: hidden;
+  color: red;
+}
+
+.skip-ct:focus {
+  position: unset !important;
+}

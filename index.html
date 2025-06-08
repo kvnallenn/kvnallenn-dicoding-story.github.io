@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicoding Story</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#app" class="skip-ct">Skip to main content</a>
+      <nav class="nav-header">
+        <div>
+          <a href="index.html">
+            <img
+              src="assets/img/dicodingg.png"
+              alt="Logo Dicoding"
+              class="logo-dicoding"
+            />
+          </a>
+        </div>
+        <div class="login-section" id="login-section">
+          <div><a href="#/login">Login</a></div>
+          <div><a href="#/register">Register</a></div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="app" class="">
+      <section class="article-text">
+        <button
+          type="submit"
+          class="skip-button"
+          onclick="window.location='#/form';"
+        >
+          Add Story
+        </button>
+      </section>
+      <section class="list-story">
+        <label>Story List</label>
+      </section>
+      <div class="text-cerita" style="display: none">
+        Harap Login Untuk Melihat List Cerita . . .
+      </div>
+      <div class="card-wrap">
+        <section class="card-story">
+          <div class="card-list" id="card-list"></div>
+        </section>
+      </div>
+    </main>
+
+    <video
+      id="video"
+      width="640"
+      height="480"
+      autoplay
+      style="display: none"
+    ></video>
+
+    <button id="captureButton" style="display: none">Capture Photo</button>
+
+    <canvas id="canvas" width="640" height="480" style="display: none"></canvas>
+
+    <img id="photo" style="display: none" alt="Captured Photo" />
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
